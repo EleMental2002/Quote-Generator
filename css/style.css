@@ -1,0 +1,43 @@
+
+#mid{
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+}
+.container {
+    background-color: black;
+    border: 3px solid white;
+    height: 350px;
+    width: 900px;
+    margin: 40px;
+    text-align: center;
+    opacity: 0.89;
+    border-radius: 80px;
+}
+
+#btn {
+    margin: 50px auto;
+    height: 50px;
+    font-size: 22px;
+    background-color: rgb(247, 6, 6);
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    color: white;
+}
+
+
+#output {
+    margin: 25px auto;
+    font-size: 26px;
+    color: white;
+}
+#output:hover{
+    color: black;
+    background-color: white
+}
+
+#btn:hover {
+ background-color:green;
+ color:white;
+}
+
